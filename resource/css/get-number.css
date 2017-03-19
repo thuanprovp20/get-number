@@ -9,7 +9,7 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
 }
 #margin-top{
-    margin:-10px;
+    margin-top:-10px;
 }
 .card-panel{
     margin:0;
@@ -25,7 +25,7 @@
 }
 .position-bottom{
     position:relative;
-    top:16vh;
+    top:15vh;
 }
 
 /*.clock{*/
@@ -69,7 +69,7 @@
 /*begin clock*/
 body {
     background: #6fd1b5;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .minutes,
@@ -100,8 +100,9 @@ body {
     display: inline-block;
     margin-top: 5vh;
     /*margin: 5vh 5vw;*/
-    width: 83vmin;
+    width: 73vmin;
     height: 26.5vmin;
+    text-align:center;
 }
 .clock-wrapper:before {
     width:75%;
@@ -450,7 +451,7 @@ body {
 }
 
 .minutes {
-    right: 26vmin;
+    right: 16vmin;
 }
 
 .hours {
