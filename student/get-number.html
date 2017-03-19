@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import style.css-->
+    <link rel="stylesheet" href="../resource/css/get-number.css">
+
+    <!--Import font google-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!--Import font-awesome-->
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
+
+    <!--Import jQuery js-->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+
+    <!--Import materialize-->
+    <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.css">
+
+    <!--Import materialize js-->
+    <script src="../bower_components/materialize/dist/js/materialize.js"></script>
+
+    <!--Import custom js-->
+    <script src="../resource/js/get-number.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav id="nav-color">
+    <div class="nav-wrapper">
+        <a href="#" class="center brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#">Choose Bus</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Choose Bus</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </div>
+</nav>      <!--end-nav-->
+<div class="row">
+    <div class="col s6 m2 offset-s3 offset-m5">
+        <div class="card" id="card-number">
+            <div class="card-content white-text center large" style="padding:4px">
+                <span class="card-title"><b>1234</b></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row"></div>
+<div class="container">
+    <div class="row">
+        <div class="clock col s6 m6 offset-s1 offset-m3">
+            <div class='clock-wrapper'>
+                <div class='bg'></div>
+                <div class='minutes'>
+                    <div class='dizaines'>
+                        <div class='number' id='minutes-dizaines-0'>
+                            <div class='up'>
+                                <div class='digit'>0</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>0</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-dizaines-1'>
+                            <div class='up'>
+                                <div class='digit'>1</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>1</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-dizaines-2'>
+                            <div class='up'>
+                                <div class='digit'>2</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>2</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-dizaines-3'>
+                            <div class='up'>
+                                <div class='digit'>3</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>3</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-dizaines-4'>
+                            <div class='up'>
+                                <div class='digit'>4</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>4</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-dizaines-5'>
+                            <div class='up'>
+                                <div class='digit'>5</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='unites'>
+                        <div class='number' id='minutes-unites-0'>
+                            <div class='up'>
+                                <div class='digit'>0</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>0</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-1'>
+                            <div class='up'>
+                                <div class='digit'>1</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>1</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-2'>
+                            <div class='up'>
+                                <div class='digit'>2</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>2</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-3'>
+                            <div class='up'>
+                                <div class='digit'>3</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>3</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-4'>
+                            <div class='up'>
+                                <div class='digit'>4</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>4</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-5'>
+                            <div class='up'>
+                                <div class='digit'>5</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>5</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-6'>
+                            <div class='up'>
+                                <div class='digit'>6</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>6</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-7'>
+                            <div class='up'>
+                                <div class='digit'>7</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>7</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-8'>
+                            <div class='up'>
+                                <div class='digit'>8</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>8</div>
+                            </div>
+                        </div>
+                        <div class='number' id='minutes-unites-9'>
+                            <div class='up'>
+                                <div class='digit'>9</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>9</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='hours'>
+                    <div class='dizaines'>
+                        <div class='number' id='hours-dizaines-0'>
+                            <div class='up'>
+                                <div class='digit'>0</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>0</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-dizaines-1'>
+                            <div class='up'>
+                                <div class='digit'>1</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='unites'>
+                        <div class='number' id='hours-unites-0'>
+                            <div class='up'>
+                                <div class='digit'>0</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>0</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-1'>
+                            <div class='up'>
+                                <div class='digit'>1</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>1</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-2'>
+                            <div class='up'>
+                                <div class='digit'>2</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>2</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-3'>
+                            <div class='up'>
+                                <div class='digit'>3</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>3</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-4'>
+                            <div class='up'>
+                                <div class='digit'>4</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>4</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-5'>
+                            <div class='up'>
+                                <div class='digit'>5</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>5</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-6'>
+                            <div class='up'>
+                                <div class='digit'>6</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>6</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-7'>
+                            <div class='up'>
+                                <div class='digit'>7</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>7</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-8'>
+                            <div class='up'>
+                                <div class='digit'>8</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>8</div>
+                            </div>
+                        </div>
+                        <div class='number' id='hours-unites-9'>
+                            <div class='up'>
+                                <div class='digit'>9</div>
+                            </div>
+                            <div class='down'>
+                                <div class='digit'>9</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='seconds-wrapper'>
+                    <div class='seconds' id='seconds'>
+                        <div class='second'>0</div>
+                        <div class='second'>1</div>
+                        <div class='second'>2</div>
+                        <div class='second'>3</div>
+                        <div class='second'>4</div>
+                        <div class='second'>5</div>
+                        <div class='second'>6</div>
+                        <div class='second'>7</div>
+                        <div class='second'>8</div>
+                        <div class='second'>9</div>
+                        <div class='second'>10</div>
+                        <div class='second'>11</div>
+                        <div class='second'>12</div>
+                        <div class='second'>13</div>
+                        <div class='second'>14</div>
+                        <div class='second'>15</div>
+                        <div class='second'>16</div>
+                        <div class='second'>17</div>
+                        <div class='second'>18</div>
+                        <div class='second'>19</div>
+                        <div class='second'>20</div>
+                        <div class='second'>21</div>
+                        <div class='second'>22</div>
+                        <div class='second'>23</div>
+                        <div class='second'>24</div>
+                        <div class='second'>25</div>
+                        <div class='second'>26</div>
+                        <div class='second'>27</div>
+                        <div class='second'>28</div>
+                        <div class='second'>29</div>
+                        <div class='second'>30</div>
+                        <div class='second'>31</div>
+                        <div class='second'>32</div>
+                        <div class='second'>33</div>
+                        <div class='second'>34</div>
+                        <div class='second'>35</div>
+                        <div class='second'>36</div>
+                        <div class='second'>37</div>
+                        <div class='second'>38</div>
+                        <div class='second'>39</div>
+                        <div class='second'>40</div>
+                        <div class='second'>41</div>
+                        <div class='second'>42</div>
+                        <div class='second'>43</div>
+                        <div class='second'>44</div>
+                        <div class='second'>45</div>
+                        <div class='second'>46</div>
+                        <div class='second'>47</div>
+                        <div class='second'>48</div>
+                        <div class='second'>49</div>
+                        <div class='second'>50</div>
+                        <div class='second'>51</div>
+                        <div class='second'>52</div>
+                        <div class='second'>53</div>
+                        <div class='second'>54</div>
+                        <div class='second'>55</div>
+                        <div class='second'>56</div>
+                        <div class='second'>57</div>
+                        <div class='second'>58</div>
+                        <div class='second'>59</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row"></div>
+    <div class="row" id="margin-top">
+        <a class="waves-effect waves-light btn-large">GET NUMBER</a>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m6 offset-m3 position-bottom">
+            <div class="card-panel">
+                <div class="card-content">
+                    <div class="row">
+                        <span class="teal-text col s12 m12">
+                            <i class="material-icons s1">location_on</i>
+                            <i class="small"><b>From </b>Ha Noi </i>
+                            <i class="small"><b>To</b> Ho Chi Minh</i>
+                        </span><br>
+                        <span class="teal-text col s12 m12">
+                            <i class="material-icons s1">watch_later</i>
+                            <i class="small"><b>Time</b> 20:30</i>
+                        </span><br>
+                        <span class="teal-text col s12 m12">
+                            <i class="material-icons s1">directions_bus</i>
+                            <i class="small"><b>Bus</b> 113</i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
