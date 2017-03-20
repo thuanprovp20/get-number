@@ -19,25 +19,14 @@
 .material-icons.md-light.md-inactive {
     color: rgba(255, 255, 255, 0.3); }
 
-#margin-top{
-    margin-top:-10px;
-}
 .card-panel{
     margin:0;
-}
-.card-content{
-    text-align: left;
-}
-.card-content h5{
-    display:inline;
 }
 .card-content  span i{
     font-size:4vmin;
 }
-.position-bottom{
+.center-element{
     position:relative;
-    top:15vh;
-}
-.icon-size{
-    font-size:52vmin;
+    left:2vmin;
+    top:2vmax;
 }
