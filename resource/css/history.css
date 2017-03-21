@@ -30,3 +30,10 @@
     left:2vmin;
     top:2vmax;
 }
+#card-number{
+    background-color:rgba(0, 150, 136, 0.68);
+    margin: 0;
+    /*z-index:-999;*/
+    border-radius:0 0 10px 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
