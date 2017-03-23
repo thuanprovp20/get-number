@@ -68,18 +68,18 @@ $(document).ready(function () {
     var s=today.getSeconds();
     var secondsElement = document.getElementById('seconds');
 
-    secondsElement.style.webkitAnimation = 'secondsTick 60s ' + -s + 's infinite linear';
-// apparently webkiteAnimationDelay doesn't work properly, i'm probably missing something but this seems to fix it
-    secondsElement.style.webkitAnimationPlayState = 'running';
-
-    secondsElement.style.mozAnimationDelay = -s + 's';
-    secondsElement.style.mozAnimationPlayState = 'running';
-
-    secondsElement.style.msAnimationDelay = -s + 's';
-    secondsElement.style.msAnimationPlayState = 'running';
-
-    secondsElement.style.animationDelay = -s + 's';
-    secondsElement.style.animationPlayState = 'running';
+//     secondsElement.style.webkitAnimation = 'secondsTick 60s ' + -s + 's infinite linear';
+// // apparently webkiteAnimationDelay doesn't work properly, i'm probably missing something but this seems to fix it
+//     secondsElement.style.webkitAnimationPlayState = 'running';
+//
+//     secondsElement.style.mozAnimationDelay = -s + 's';
+//     secondsElement.style.mozAnimationPlayState = 'running';
+//
+//     secondsElement.style.msAnimationDelay = -s + 's';
+//     secondsElement.style.msAnimationPlayState = 'running';
+//
+//     secondsElement.style.animationDelay = -s + 's';
+//     secondsElement.style.animationPlayState = 'running';
     
 
 });

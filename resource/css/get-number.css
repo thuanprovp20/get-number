@@ -471,16 +471,16 @@ body {
     left: 0;
 }
 
-.hours:before {
-    top: 50%;
-    right: -1.3vmin;
-    display: block;
-    margin-top: -2vmin;
-    width: 0.8vmin;
-    height: 4vmin;
-    background: #6e4875;
-    content: '';
-}
+/*.hours:before {*/
+    /*top: 50%;*/
+    /*right: -1.3vmin;*/
+    /*display: block;*/
+    /*margin-top: -2vmin;*/
+    /*width: 0.8vmin;*/
+    /*height: 4vmin;*/
+    /*background: #6e4875;*/
+    /*content: '';*/
+/*}*/
 
 .number {
     width: 100%;
