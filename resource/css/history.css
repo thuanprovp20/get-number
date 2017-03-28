@@ -22,14 +22,19 @@
 .card-panel{
     margin:0;
 }
+/*.card-content{*/
+    /*padding:10px;*/
+/*}*/
 .card-content  span i{
     font-size:4vmin;
 }
+
 .center-element{
     position:relative;
-    left:2vmin;
-    top:2vmax;
+    left:0vmin;
+    top:5vmax;
 }
+
 #card-number{
     background-color:rgba(0, 150, 136, 0.68);
     margin: 0;
