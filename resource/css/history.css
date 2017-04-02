@@ -22,9 +22,9 @@
 .card-panel{
     margin:0;
 }
-/*.card-content{*/
-    /*padding:10px;*/
-/*}*/
+.card-panel .card-content{
+    padding:10px 0;
+}
 .card-content  span i{
     font-size:4vmin;
 }
