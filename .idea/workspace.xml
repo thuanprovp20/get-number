@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="379573fe-aa81-4694-b0c9-a0feaba14a59" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/profile.html" afterPath="$PROJECT_DIR$/admin/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver/profile.html" afterPath="$PROJECT_DIR$/driver/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student/profile.html" afterPath="$PROJECT_DIR$/student/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/css/profile.css" afterPath="$PROJECT_DIR$/resource/css/profile.css" />
     </list>
     <ignored path="project-500k-form-v2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="77" column="119" selection-start-line="77" selection-start-column="119" selection-end-line="77" selection-end-column="119" />
+            <state relative-caret-position="108">
+              <caret line="79" column="106" selection-start-line="79" selection-start-column="106" selection-end-line="79" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resource/css/profile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="37" column="84" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -72,7 +80,7 @@
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/driver/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="1309">
               <caret line="77" column="119" selection-start-line="77" selection-start-column="119" selection-end-line="77" selection-end-column="119" />
               <folding />
             </state>
@@ -82,7 +90,7 @@
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="1309">
               <caret line="77" column="111" selection-start-line="77" selection-start-column="111" selection-end-line="77" selection-end-column="119" />
               <folding />
             </state>
@@ -125,7 +133,6 @@
         <option value="$PROJECT_DIR$/resource/js/register.js" />
         <option value="$PROJECT_DIR$/resource/js/profile.js" />
         <option value="$PROJECT_DIR$/driver/register.html" />
-        <option value="$PROJECT_DIR$/resource/css/profile.css" />
         <option value="$PROJECT_DIR$/bower_components/materialize/dist/css/materialize.css" />
         <option value="$PROJECT_DIR$/resource/css/history.css" />
         <option value="$PROJECT_DIR$/driver/history.html" />
@@ -134,6 +141,7 @@
         <option value="$PROJECT_DIR$/admin/profile.html" />
         <option value="$PROJECT_DIR$/driver/profile.html" />
         <option value="$PROJECT_DIR$/student/profile.html" />
+        <option value="$PROJECT_DIR$/resource/css/profile.css" />
       </list>
     </option>
   </component>
@@ -173,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,7 +298,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -414,12 +422,13 @@
       <workItem from="1491138534674" duration="12806000" />
       <workItem from="1491157119333" duration="10000" />
       <workItem from="1491211308627" duration="196000" />
-      <workItem from="1491211524469" duration="23000" />
+      <workItem from="1491211524469" duration="59000" />
+      <workItem from="1491290383594" duration="143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56765000" />
+    <option name="totallyTimeSpent" value="56944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -742,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/driver/history-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -785,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="1309">
           <caret line="77" column="111" selection-start-line="77" selection-start-column="111" selection-end-line="77" selection-end-column="119" />
           <folding />
         </state>
@@ -793,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/driver/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="1309">
           <caret line="77" column="119" selection-start-line="77" selection-start-column="119" selection-end-line="77" selection-end-column="119" />
           <folding />
         </state>
@@ -801,8 +803,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="77" column="119" selection-start-line="77" selection-start-column="119" selection-end-line="77" selection-end-column="119" />
+        <state relative-caret-position="108">
+          <caret line="79" column="106" selection-start-line="79" selection-start-column="106" selection-end-line="79" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="37" column="84" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
           <folding />
         </state>
       </provider>
